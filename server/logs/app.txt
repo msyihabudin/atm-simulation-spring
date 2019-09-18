@@ -1,0 +1,176 @@
+2019-09-18 02:09:54,913 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 3402 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:09:54,915 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:09:54,915 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:09:59,199 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.872 seconds (JVM running for 5.698)
+2019-09-18 02:10:29,811 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 02:10:40,801 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 02:10:45,591 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-6] In BalanceInquiryService response
+2019-09-18 02:11:04,343 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 3628 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:11:04,345 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:11:04,345 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:11:08,525 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.51 seconds (JVM running for 5.425)
+2019-09-18 02:19:43,968 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 5295 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:19:43,971 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:19:43,971 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:19:48,706 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 5.222 seconds (JVM running for 6.054)
+2019-09-18 02:21:27,880 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 5633 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:21:27,881 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:21:27,882 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:21:33,374 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 6.034 seconds (JVM running for 7.288)
+2019-09-18 02:24:09,166 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 6172 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:24:09,167 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:24:09,167 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:24:13,969 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 5.281 seconds (JVM running for 6.344)
+2019-09-18 02:24:35,160 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 02:24:36,750 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 02:24:37,665 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-6] In BalanceInquiryService response
+2019-09-18 02:24:38,567 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-7] In BalanceInquiryService response
+2019-09-18 02:24:57,659 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 6333 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:24:57,661 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:24:57,661 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:25:01,889 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.763 seconds (JVM running for 5.573)
+2019-09-18 02:36:30,963 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 8563 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:36:30,965 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:36:30,965 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:36:35,312 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.74 seconds (JVM running for 5.575)
+2019-09-18 02:39:39,974 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 02:44:07,413 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 10044 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 02:44:07,415 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:44:07,416 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 02:44:13,774 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 6.639 seconds (JVM running for 7.409)
+2019-09-18 02:44:22,122 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 02:49:28,506 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 02:49:39,179 INFO com.syhb.project.services.CashWithdrawalService [pool-3-thread-6] In CashWithdrawalService response
+2019-09-18 02:49:48,701 INFO com.syhb.project.services.CashWithdrawalService [pool-3-thread-7] In CashWithdrawalService response
+2019-09-18 03:06:59,285 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 14444 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 03:06:59,287 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 03:06:59,287 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 03:07:03,539 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.702 seconds (JVM running for 5.551)
+2019-09-18 03:08:29,987 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 03:08:43,408 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 03:09:20,903 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-6] In PaymentService response
+2019-09-18 03:11:39,918 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-1] In TransactionService create
+2019-09-18 03:11:39,924 INFO com.syhb.project.services.BalanceInquiryService [http-nio-8084-exec-1] In BalanceInquiryService response
+2019-09-18 03:11:45,089 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-3] In TransactionService create
+2019-09-18 03:11:45,094 INFO com.syhb.project.services.CashWithdrawalService [http-nio-8084-exec-3] In CashWithdrawalService response
+2019-09-18 03:11:49,828 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-4] In TransactionService create
+2019-09-18 03:11:49,833 INFO com.syhb.project.services.CashWithdrawalService [http-nio-8084-exec-4] In CashWithdrawalService response
+2019-09-18 03:12:00,434 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-6] In TransactionService create
+2019-09-18 03:12:00,439 INFO com.syhb.project.services.CashWithdrawalService [http-nio-8084-exec-6] In CashWithdrawalService response
+2019-09-18 03:12:23,735 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-8] In TransactionService create
+2019-09-18 03:12:23,741 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-8] In TransferInquiryService response
+2019-09-18 03:12:27,603 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-9] In TransactionService create
+2019-09-18 03:12:27,610 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-9] In TransferService response
+2019-09-18 03:12:44,935 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-1] In TransactionService create
+2019-09-18 03:12:44,942 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-1] In TransferService response
+2019-09-18 03:13:04,209 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-3] In TransactionService create
+2019-09-18 03:13:04,214 DEBUG com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-3] In PaymentService response
+2019-09-18 03:13:17,050 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-5] In TransactionService create
+2019-09-18 03:13:17,056 DEBUG com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-5] In PaymentService response
+2019-09-18 03:13:37,532 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-7] In TransactionService create
+2019-09-18 03:13:37,537 DEBUG com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-7] In PaymentService response
+2019-09-18 03:14:38,410 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-7] In BalanceInquiryService response
+2019-09-18 03:15:03,595 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-8] In PaymentService response
+2019-09-18 03:15:26,017 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-9] In TransactionService create
+2019-09-18 03:15:26,027 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-9] In TransferService response
+2019-09-18 06:14:28,034 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 32439 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 06:14:28,036 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 06:14:28,036 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 06:14:32,757 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 5.137 seconds (JVM running for 6.006)
+2019-09-18 06:14:59,131 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-1] In TransactionService create
+2019-09-18 06:14:59,159 INFO com.syhb.project.services.BalanceInquiryService [http-nio-8084-exec-1] In BalanceInquiryService response
+2019-09-18 06:16:00,009 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 06:20:09,723 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 06:20:17,338 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-3] In TransactionService create
+2019-09-18 06:20:17,351 INFO com.syhb.project.services.BalanceInquiryService [http-nio-8084-exec-3] In BalanceInquiryService response
+2019-09-18 10:01:16,951 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 40090 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:01:16,976 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:01:16,976 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:01:23,859 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 7.464 seconds (JVM running for 9.052)
+2019-09-18 10:02:18,430 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-1] In TransactionService create
+2019-09-18 10:02:18,454 INFO com.syhb.project.services.BalanceInquiryService [http-nio-8084-exec-1] In BalanceInquiryService response
+2019-09-18 10:02:24,622 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-3] In TransactionService create
+2019-09-18 10:02:24,632 INFO com.syhb.project.services.BalanceInquiryService [http-nio-8084-exec-3] In BalanceInquiryService response
+2019-09-18 10:02:40,697 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 10:24:02,924 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 43796 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:24:02,927 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:24:02,927 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:24:10,324 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 7.782 seconds (JVM running for 9.322)
+2019-09-18 10:24:17,714 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 10:24:29,099 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 10:26:11,113 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 44196 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:26:11,114 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:26:11,114 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:26:15,017 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.112 seconds (JVM running for 5.777)
+2019-09-18 10:38:50,023 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 10:43:24,616 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 47385 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:43:24,619 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:43:24,619 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:43:28,838 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.471 seconds (JVM running for 5.168)
+2019-09-18 10:45:39,822 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 47802 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:45:39,824 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:45:39,825 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:45:44,001 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.45 seconds (JVM running for 5.114)
+2019-09-18 10:48:16,001 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 48296 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:48:16,003 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:48:16,003 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:48:20,292 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.646 seconds (JVM running for 5.37)
+2019-09-18 10:54:44,174 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 49512 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 10:54:44,176 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:54:44,176 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 10:54:48,205 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.249 seconds (JVM running for 6.937)
+2019-09-18 11:07:56,754 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 51970 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 11:07:56,757 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 11:07:56,757 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 11:08:01,054 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.733 seconds (JVM running for 5.468)
+2019-09-18 11:22:44,487 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 54705 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 11:22:44,494 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 11:22:44,494 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 11:22:48,756 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.563 seconds (JVM running for 5.343)
+2019-09-18 11:22:58,222 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 12:07:53,655 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 63142 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 12:07:53,657 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 12:07:53,658 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 12:08:00,241 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 7.377 seconds (JVM running for 9.461)
+2019-09-18 12:08:53,809 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-1] In TransactionService create
+2019-09-18 12:08:53,838 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-1] In TransferService response
+2019-09-18 12:10:44,035 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-4] In PaymentService response
+2019-09-18 12:11:44,250 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-5] In BalanceInquiryService response
+2019-09-18 12:11:47,183 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-6] In BalanceInquiryService response
+2019-09-18 12:11:58,762 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-3] In TransactionService create
+2019-09-18 12:11:58,769 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-3] In TransferService response
+2019-09-18 12:12:16,592 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-7] In BalanceInquiryService response
+2019-09-18 12:12:29,504 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-8] In PaymentService response
+2019-09-18 12:12:58,547 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-9] In PaymentService response
+2019-09-18 12:13:24,949 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-10] In PaymentService response
+2019-09-18 12:13:36,853 INFO com.syhb.project.services.CashWithdrawalService [pool-3-thread-3] In CashWithdrawalService response
+2019-09-18 13:57:04,567 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 72756 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 13:57:04,568 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 13:57:04,568 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 13:57:09,204 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 4.985 seconds (JVM running for 7.096)
+2019-09-18 13:57:15,409 INFO com.syhb.project.ServerApplication [main] Starting ServerApplication on Muhamad with PID 72795 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/server)
+2019-09-18 13:57:15,410 DEBUG com.syhb.project.ServerApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 13:57:15,410 INFO com.syhb.project.ServerApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-18 13:57:20,408 INFO com.syhb.project.ServerApplication [main] Started ServerApplication in 5.403 seconds (JVM running for 6.395)
+2019-09-18 13:58:33,012 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-4] In BalanceInquiryService response
+2019-09-18 13:58:59,535 INFO com.syhb.project.services.CashWithdrawalService [pool-3-thread-5] In CashWithdrawalService response
+2019-09-18 13:59:13,460 INFO com.syhb.project.services.CashWithdrawalService [pool-3-thread-6] In CashWithdrawalService response
+2019-09-18 13:59:27,764 INFO com.syhb.project.services.CashWithdrawalService [pool-3-thread-7] In CashWithdrawalService response
+2019-09-18 13:59:32,870 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-8] In BalanceInquiryService response
+2019-09-18 13:59:48,597 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-1] In TransactionService create
+2019-09-18 13:59:48,603 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-1] In TransferInquiryService response
+2019-09-18 14:00:20,902 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-3] In TransactionService create
+2019-09-18 14:00:20,910 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-3] In TransferInquiryService response
+2019-09-18 14:00:29,229 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-5] In TransactionService create
+2019-09-18 14:00:29,236 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-5] In TransferService response
+2019-09-18 14:00:55,787 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-7] In TransactionService create
+2019-09-18 14:00:55,793 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-7] In TransferService response
+2019-09-18 14:01:03,854 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-9] In BalanceInquiryService response
+2019-09-18 14:01:22,484 DEBUG com.syhb.project.controllers.TransactionController [http-nio-8084-exec-9] In TransactionService create
+2019-09-18 14:01:22,491 INFO com.syhb.project.services.TransferInquiryService [http-nio-8084-exec-9] In TransferService response
+2019-09-18 14:01:32,688 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-10] In BalanceInquiryService response
+2019-09-18 14:01:47,495 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-3] In PaymentService response
+2019-09-18 14:02:09,926 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-4] In PaymentService response
+2019-09-18 14:02:25,399 DEBUG com.syhb.project.services.TransferInquiryService [pool-3-thread-5] In PaymentService response
+2019-09-18 14:02:30,769 INFO com.syhb.project.services.BalanceInquiryService [pool-3-thread-6] In BalanceInquiryService response
+2019-09-18 14:55:27,959 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: connection error

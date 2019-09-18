@@ -1,0 +1,710 @@
+2019-09-17 11:00:19,045 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 11:00:19,166 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 11:02:04,479 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 11:02:04,597 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 11:02:38,880 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 11:02:38,913 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 11:04:37,686 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 11:04:37,810 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 11:04:43,557 INFO com.syhb.project.services.impl.CashWithdrawalImpl [main] In CashWithdrawalImpl send
+2019-09-17 11:04:43,569 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 11:04:43,599 INFO com.syhb.project.handlers.NotEnoughBalance [main] Saldo Anda tidak mencukupi!
+2019-09-17 13:10:20,237 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 88220 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 13:10:20,240 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:10:20,241 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:10:21,875 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.146 seconds (JVM running for 2.915)
+2019-09-17 13:10:29,479 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 13:11:13,655 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 13:13:48,936 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 88907 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 13:13:48,937 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:13:48,937 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:13:50,815 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.275 seconds (JVM running for 3.08)
+2019-09-17 13:13:56,625 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 13:42:16,907 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 94397 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 13:42:16,909 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:42:16,909 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:42:18,744 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.176 seconds (JVM running for 2.921)
+2019-09-17 13:42:23,469 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 13:50:00,690 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 95893 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 13:50:00,692 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:50:00,692 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:50:02,433 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.105 seconds (JVM running for 2.964)
+2019-09-17 13:50:13,896 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 14:07:52,431 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 99379 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 14:07:52,432 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 14:07:52,432 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 14:07:54,268 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.108 seconds (JVM running for 2.831)
+2019-09-17 14:07:59,129 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 14:07:59,166 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 14:20:38,278 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 2092 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 14:20:38,288 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 14:20:38,288 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 14:20:39,935 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.035 seconds (JVM running for 2.823)
+2019-09-17 14:22:19,147 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 2422 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 14:22:19,164 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 14:22:19,164 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 14:22:20,845 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.036 seconds (JVM running for 2.801)
+2019-09-17 14:23:30,210 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 2657 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 14:23:30,212 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 14:23:30,213 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 14:23:31,936 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.065 seconds (JVM running for 2.831)
+2019-09-17 14:24:23,424 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 2829 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 14:24:23,425 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 14:24:23,425 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 14:24:25,020 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.016 seconds (JVM running for 2.799)
+2019-09-17 14:28:12,342 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 3582 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client)
+2019-09-17 14:28:12,344 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 14:28:12,345 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 14:28:13,895 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.936 seconds (JVM running for 2.715)
+2019-09-17 15:44:03,237 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15165 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:44:03,241 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:44:03,242 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 15:44:04,988 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:44:05,000 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:44:31,297 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15252 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:44:31,313 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:44:31,313 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 15:44:32,885 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:44:32,897 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:44:45,186 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15306 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:44:45,187 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:44:45,187 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 15:44:46,947 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:44:46,959 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:45:25,692 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15434 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:45:25,694 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:45:25,694 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 15:45:27,388 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:45:27,400 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:45:43,371 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15500 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:45:43,373 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:45:43,373 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 15:45:44,953 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:45:44,965 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:46:16,503 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15602 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:46:16,504 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:46:16,504 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 15:46:18,159 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:46:18,175 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:46:27,287 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15637 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:46:27,290 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:46:27,290 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 15:46:28,998 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:46:29,010 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:46:33,824 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15657 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:46:33,826 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:46:33,826 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 15:46:35,471 ERROR org.apache.catalina.util.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8091]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at com.syhb.project.ClientApplication.main(ClientApplication.java:13)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-17 15:46:35,486 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2019-09-17 15:47:04,693 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15762 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 15:47:04,695 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 15:47:04,695 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 15:47:06,418 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.964 seconds (JVM running for 2.708)
+2019-09-17 16:17:54,227 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 21287 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 16:17:54,229 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 16:17:54,229 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 16:17:55,709 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:17:56,736 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:17:58,743 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:18:02,749 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:18:07,758 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:18:07,853 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [container-1] Execution of Rabbit message listener failed, and the error handler threw an exception
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:105)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1368)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1621)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1414)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:870)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:854)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:78)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1137)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1043)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException: Failed to invoke target method 'receiveMessage' with argument type = [class [B], value = [{[B@1cbaeeba}]
+	at org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter.invokeListenerMethod(MessageListenerAdapter.java:385)
+	at org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter.onMessage(MessageListenerAdapter.java:292)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1542)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1468)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1456)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1400)
+	... 6 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.syhb.project.client.Receiver.receiveMessage([B)
+	at java.base/java.lang.Class.getMethod(Class.java:2113)
+	at org.springframework.util.MethodInvoker.prepare(MethodInvoker.java:181)
+	at org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter.invokeListenerMethod(MessageListenerAdapter.java:362)
+	... 12 common frames omitted
+2019-09-17 16:18:07,889 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 13.872 seconds (JVM running for 17.447)
+2019-09-17 16:21:12,868 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 21939 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 16:21:12,869 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 16:21:12,869 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 16:21:15,241 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:21:16,307 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:21:18,310 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:21:22,319 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:21:27,325 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:21:27,383 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 14.883 seconds (JVM running for 16.103)
+2019-09-17 16:24:44,285 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 22625 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 16:24:44,288 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 16:24:44,288 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 16:24:45,972 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:24:46,992 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:24:49,001 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:24:53,023 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:24:58,027 ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory [AMQP Connection 127.0.0.1:5672] Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'atm-exchange' in vhost '/': received 'topic' but current is 'direct', class-id=40, method-id=10)
+2019-09-17 16:24:58,085 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 14.07 seconds (JVM running for 14.79)
+2019-09-17 16:33:47,106 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 24378 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 16:33:47,107 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 16:33:47,108 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 16:33:48,682 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.002 seconds (JVM running for 2.86)
+2019-09-17 16:43:08,855 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 26202 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 16:43:08,856 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 16:43:08,857 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 16:43:11,889 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 3.35 seconds (JVM running for 4.132)
+2019-09-17 16:47:56,834 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 27121 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 16:47:56,835 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 16:47:56,835 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 16:48:00,048 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 3.593 seconds (JVM running for 4.759)
+2019-09-17 16:48:07,894 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-17 16:48:08,037 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-17 17:01:00,075 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 29646 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:01:00,077 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:01:00,077 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:01:01,743 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.944 seconds (JVM running for 2.677)
+2019-09-17 17:03:36,301 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 30154 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:03:36,303 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:03:36,303 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:03:37,840 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.79 seconds (JVM running for 2.475)
+2019-09-17 17:19:00,203 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33154 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:19:00,204 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:19:00,204 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:19:01,795 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.842 seconds (JVM running for 2.527)
+2019-09-17 17:20:27,537 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33438 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:20:27,540 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:20:27,540 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:20:29,067 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.798 seconds (JVM running for 2.528)
+2019-09-17 17:20:48,564 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33507 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:20:48,566 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:20:48,566 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:20:50,083 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.779 seconds (JVM running for 2.46)
+2019-09-17 17:20:59,068 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33541 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:20:59,069 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:20:59,069 INFO com.syhb.project.ClientApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:21:00,514 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.689 seconds (JVM running for 2.35)
+2019-09-17 17:22:28,566 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33836 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:22:28,567 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:22:28,567 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 17:22:29,750 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.377 seconds (JVM running for 2.902)
+2019-09-17 17:24:06,404 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 34150 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:24:06,409 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:24:06,410 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 17:24:08,116 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.079 seconds (JVM running for 2.803)
+2019-09-17 17:25:42,569 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 34466 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:25:42,570 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:25:42,570 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 17:25:44,089 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.787 seconds (JVM running for 2.535)
+2019-09-17 17:28:47,443 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 35070 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 17:28:47,444 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:28:47,444 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 17:28:49,082 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.913 seconds (JVM running for 2.668)
+2019-09-17 18:28:43,593 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 42670 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:28:43,594 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:28:43,595 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:28:45,489 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.268 seconds (JVM running for 3.291)
+2019-09-17 18:38:27,084 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 44583 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:38:27,086 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:38:27,087 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:38:28,759 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.97 seconds (JVM running for 2.733)
+2019-09-17 18:39:00,217 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 44689 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:39:00,218 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:39:00,218 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:39:01,812 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.99 seconds (JVM running for 2.946)
+2019-09-17 18:39:55,928 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 44880 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:39:55,929 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:39:55,929 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:39:57,520 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.868 seconds (JVM running for 2.567)
+2019-09-17 18:47:17,726 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 46134 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:47:17,727 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:47:17,727 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:47:19,222 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.759 seconds (JVM running for 2.425)
+2019-09-17 18:47:57,688 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 46274 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:47:57,689 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:47:57,689 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:47:59,120 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.704 seconds (JVM running for 2.378)
+2019-09-17 18:49:31,465 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 46577 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 18:49:31,466 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 18:49:31,467 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 18:49:32,869 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.687 seconds (JVM running for 2.452)
+2019-09-17 19:06:27,206 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 48146 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 19:06:27,212 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 19:06:27,212 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 19:06:28,666 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.718 seconds (JVM running for 2.383)
+2019-09-17 20:21:45,526 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 58622 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 20:21:45,527 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 20:21:45,527 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 20:21:47,060 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.811 seconds (JVM running for 2.46)
+2019-09-17 22:37:54,391 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 62185 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 22:37:54,394 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 22:37:54,394 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 22:37:56,005 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.874 seconds (JVM running for 2.674)
+2019-09-17 22:39:16,615 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 62459 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 22:39:16,621 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 22:39:16,621 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 22:39:18,035 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.756 seconds (JVM running for 2.582)
+2019-09-17 22:48:30,569 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 64240 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 22:48:30,570 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 22:48:30,571 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 22:48:32,133 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.825 seconds (JVM running for 2.565)
+2019-09-17 22:50:05,808 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 64569 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 22:50:05,809 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 22:50:05,810 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 22:50:07,352 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.828 seconds (JVM running for 2.573)
+2019-09-17 22:51:33,316 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 64854 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 22:51:33,321 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 22:51:33,321 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 22:51:34,874 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.837 seconds (JVM running for 2.583)
+2019-09-17 23:25:10,664 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 71293 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:25:10,666 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:25:10,666 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 23:25:12,309 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.996 seconds (JVM running for 2.763)
+2019-09-17 23:28:35,715 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 71953 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:28:35,716 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:28:35,717 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 23:28:37,300 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.878 seconds (JVM running for 2.559)
+2019-09-17 23:31:06,482 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 72437 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:31:06,484 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:31:06,487 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 23:31:08,247 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.016 seconds (JVM running for 2.782)
+2019-09-17 23:31:41,375 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 72547 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:31:41,385 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:31:41,385 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding
+2019-09-17 23:31:43,007 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.874 seconds (JVM running for 2.607)
+2019-09-17 23:32:58,177 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 72800 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:32:58,179 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:32:58,179 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding,client,server
+2019-09-17 23:32:58,726 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-09-17 23:33:10,129 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 72839 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:33:10,131 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:33:10,131 INFO com.syhb.project.ClientApplication [main] The following profiles are active: atm-exchange,server-binding,client,server
+2019-09-17 23:33:10,652 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-09-17 23:39:36,785 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 74079 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:39:36,789 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:39:36,789 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-17 23:39:38,293 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.781 seconds (JVM running for 2.546)
+2019-09-17 23:41:35,093 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 74455 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:41:35,097 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:41:35,097 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-17 23:41:36,567 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.82 seconds (JVM running for 2.528)
+2019-09-17 23:53:13,590 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 76689 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:53:13,591 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:53:13,591 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client,server
+2019-09-17 23:53:14,156 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-09-17 23:53:33,154 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 76751 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:53:33,155 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:53:33,156 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client,server
+2019-09-17 23:53:33,636 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-09-17 23:55:37,531 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 77150 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-17 23:55:37,534 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:55:37,535 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client,server
+2019-09-17 23:55:37,979 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

@@ -1,0 +1,63 @@
+2019-09-18 03:07:48,605 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 14613 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-18 03:07:48,609 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 03:07:48,609 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 03:07:52,909 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 4.601 seconds (JVM running for 5.39)
+2019-09-18 03:08:36,537 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-4] In PaymentInquiryService response
+2019-09-18 03:08:48,579 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-5] In PaymentInquiryService response
+2019-09-18 03:09:18,913 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-6] In PaymentInquiryService response
+2019-09-18 03:12:43,068 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-18 03:12:43,073 INFO com.syhb.project.services.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-18 03:12:52,415 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-18 03:12:52,424 INFO com.syhb.project.services.PaymentInquiryService [http-nio-8085-exec-3] In PaymentInquiryService response
+2019-09-18 03:13:02,341 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-18 03:13:02,347 INFO com.syhb.project.services.PaymentInquiryService [http-nio-8085-exec-5] In PaymentInquiryService response
+2019-09-18 03:13:37,622 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-18 03:13:37,629 INFO com.syhb.project.services.PaymentService [http-nio-8085-exec-7] In PaymentService response
+2019-09-18 03:15:17,048 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-18 03:15:17,060 INFO com.syhb.project.services.TransferInquiryService [http-nio-8085-exec-9] In TransferInquiryService response
+2019-09-18 06:14:17,424 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 32407 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching)
+2019-09-18 06:14:17,425 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 06:14:17,426 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 06:14:21,667 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 4.681 seconds (JVM running for 5.558)
+2019-09-18 09:57:05,025 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 39297 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching)
+2019-09-18 09:57:05,027 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 09:57:05,027 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 09:57:09,290 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 4.543 seconds (JVM running for 6.226)
+2019-09-18 10:24:09,441 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 43817 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching)
+2019-09-18 10:24:09,450 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:24:09,450 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 10:24:14,060 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 5.117 seconds (JVM running for 6.139)
+2019-09-18 11:22:09,677 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 54583 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching)
+2019-09-18 11:22:09,678 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 11:22:09,678 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 11:22:13,470 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 4.013 seconds (JVM running for 5.749)
+2019-09-18 12:08:22,108 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 63244 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching)
+2019-09-18 12:08:22,109 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 12:08:22,110 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 12:08:26,103 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 4.289 seconds (JVM running for 5.067)
+2019-09-18 12:08:50,792 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-18 12:08:50,820 INFO com.syhb.project.services.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-18 12:08:54,106 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-18 12:08:54,112 INFO com.syhb.project.services.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-18 12:10:40,373 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-4] In PaymentInquiryService response
+2019-09-18 12:10:44,153 INFO com.syhb.project.services.PaymentService [pool-2-thread-5] In PaymentService response
+2019-09-18 12:11:56,978 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-18 12:11:56,987 INFO com.syhb.project.services.TransferInquiryService [http-nio-8085-exec-4] In TransferInquiryService response
+2019-09-18 12:11:58,798 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-18 12:11:58,800 INFO com.syhb.project.services.TransferService [http-nio-8085-exec-5] In TransferService response
+2019-09-18 12:12:26,533 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-6] In PaymentInquiryService response
+2019-09-18 12:12:29,551 INFO com.syhb.project.services.PaymentService [pool-2-thread-7] In PaymentService response
+2019-09-18 12:12:56,118 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-8] In PaymentInquiryService response
+2019-09-18 13:57:54,062 INFO com.syhb.project.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 72923 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switching)
+2019-09-18 13:57:54,064 DEBUG com.syhb.project.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 13:57:54,064 INFO com.syhb.project.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 13:58:03,581 INFO com.syhb.project.SwitchingApplication [main] Started SwitchingApplication in 9.978 seconds (JVM running for 10.972)
+2019-09-18 14:00:50,750 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-18 14:00:50,792 INFO com.syhb.project.services.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-18 14:01:19,750 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-18 14:01:19,762 INFO com.syhb.project.services.TransferInquiryService [http-nio-8085-exec-3] In TransferInquiryService response
+2019-09-18 14:01:22,520 INFO com.syhb.project.controllers.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-18 14:01:22,523 INFO com.syhb.project.services.TransferService [http-nio-8085-exec-4] In TransferService response
+2019-09-18 14:01:42,380 INFO com.syhb.project.services.PaymentInquiryService [pool-2-thread-4] In PaymentInquiryService response
+2019-09-18 14:01:47,544 INFO com.syhb.project.services.PaymentService [pool-2-thread-5] In PaymentService response
+2019-09-18 14:02:25,443 INFO com.syhb.project.services.PaymentService [pool-2-thread-6] In PaymentService response

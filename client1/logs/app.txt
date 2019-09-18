@@ -1,0 +1,271 @@
+2019-09-18 00:11:00,435 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 80086 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:11:00,439 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:11:00,439 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client,server
+2019-09-18 00:11:00,965 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-09-18 00:11:07,916 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 80111 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:11:07,919 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:11:07,919 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client,server
+2019-09-18 00:11:08,418 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'exchange', defined in class path resource [com/syhb/project/client/ClientConfig$Client.class], could not be registered. A bean with that name has already been defined in class path resource [com/syhb/project/client/ClientConfig$Server.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-09-18 00:18:30,015 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 81552 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:18:30,016 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:18:30,016 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:18:31,407 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.611 seconds (JVM running for 2.332)
+2019-09-18 00:35:25,584 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 84843 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:35:25,595 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:35:25,598 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:35:27,127 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.865 seconds (JVM running for 2.674)
+2019-09-18 00:35:45,797 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 84912 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:35:45,799 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:35:45,799 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:35:47,241 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.792 seconds (JVM running for 2.477)
+2019-09-18 00:44:55,497 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 86687 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:44:55,499 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:44:55,500 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:44:57,069 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.902 seconds (JVM running for 2.727)
+2019-09-18 00:48:20,093 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 87350 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:48:20,096 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:48:20,098 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:48:21,712 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.882 seconds (JVM running for 2.607)
+2019-09-18 00:51:35,441 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 87981 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:51:35,451 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:51:35,451 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:51:36,941 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.805 seconds (JVM running for 2.621)
+2019-09-18 00:54:14,220 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 88494 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:54:14,221 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:54:14,221 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:54:15,696 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.859 seconds (JVM running for 2.732)
+2019-09-18 00:54:30,365 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 88555 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 00:54:30,366 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:54:30,366 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 00:54:31,811 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.802 seconds (JVM running for 2.668)
+2019-09-18 01:04:36,327 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 90495 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 01:04:36,328 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 01:04:36,329 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 01:04:37,884 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.911 seconds (JVM running for 2.66)
+2019-09-18 01:04:45,728 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:04:45,891 DEBUG com.syhb.project.controllers.TransactionController [main] In TransactionController unpackFromIso. Message: org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0
+2019-09-18 01:04:45,892 ERROR com.syhb.project.MainApp [main] null
+2019-09-18 01:10:34,706 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:10:34,873 DEBUG com.syhb.project.controllers.TransactionController [main] In TransactionController unpackFromIso. Message: org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0
+2019-09-18 01:10:34,874 ERROR com.syhb.project.MainApp [main] null
+2019-09-18 01:17:31,743 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 92979 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 01:17:31,744 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 01:17:31,744 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 01:17:33,257 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.893 seconds (JVM running for 2.823)
+2019-09-18 01:17:39,781 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:17:39,953 DEBUG com.syhb.project.controllers.TransactionController [main] In TransactionController unpackFromIso. Message: org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0
+2019-09-18 01:17:39,953 ERROR com.syhb.project.MainApp [main] null
+2019-09-18 01:22:48,730 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:22:48,899 DEBUG com.syhb.project.controllers.TransactionController [main] In TransactionController unpackFromIso. Message: org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0
+2019-09-18 01:22:48,899 ERROR com.syhb.project.MainApp [main] null
+2019-09-18 01:28:39,133 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 95169 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 01:28:39,165 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 01:28:39,165 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 01:28:40,661 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.876 seconds (JVM running for 2.775)
+2019-09-18 01:28:47,427 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:28:47,730 DEBUG com.syhb.project.controllers.TransactionController [main] In TransactionController unpackFromIso. Message: org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0
+2019-09-18 01:28:47,730 ERROR com.syhb.project.MainApp [main] null
+2019-09-18 01:50:10,655 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:50:29,375 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:52:01,042 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 99701 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 01:52:01,043 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 01:52:01,043 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 01:52:02,547 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.871 seconds (JVM running for 2.692)
+2019-09-18 01:52:08,941 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:52:16,411 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 01:52:42,462 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:10:22,207 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 3485 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:10:22,210 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:10:22,210 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:10:23,845 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.965 seconds (JVM running for 3.338)
+2019-09-18 02:10:29,638 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:10:40,749 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:10:45,567 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:10:56,257 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:18:50,993 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 5131 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:18:50,994 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:18:50,994 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:18:52,727 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.132 seconds (JVM running for 3.113)
+2019-09-18 02:19:00,214 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:24:28,384 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 6233 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:24:28,387 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:24:28,387 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:24:30,133 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.109 seconds (JVM running for 2.947)
+2019-09-18 02:24:35,025 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:24:36,727 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:24:37,647 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:24:38,549 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:24:51,361 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:36:51,288 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 8631 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:36:51,289 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:36:51,289 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:36:53,037 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.129 seconds (JVM running for 2.987)
+2019-09-18 02:36:57,836 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:36:57,968 ERROR com.syhb.project.services.impl.BalanceInquiryImpl [main] null
+2019-09-18 02:38:08,292 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 8889 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:38:08,294 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:38:08,294 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:38:10,118 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.121 seconds (JVM running for 2.877)
+2019-09-18 02:38:15,227 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:39:21,750 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 9121 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:39:21,751 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:39:21,751 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:39:23,438 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.97 seconds (JVM running for 2.753)
+2019-09-18 02:39:39,821 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:44:15,842 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 10074 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:44:15,843 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:44:15,843 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:44:17,392 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.912 seconds (JVM running for 2.942)
+2019-09-18 02:44:21,992 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:49:20,825 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 11053 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:49:20,827 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:49:20,827 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:49:22,578 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.062 seconds (JVM running for 2.848)
+2019-09-18 02:49:28,388 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 02:49:39,155 INFO com.syhb.project.services.impl.CashWithdrawalImpl [main] In CashWithdrawalImpl send
+2019-09-18 02:49:39,231 INFO com.syhb.project.handlers.MultipleOf [main] Jumlah harus kelipatan 100.000!
+2019-09-18 02:49:48,678 INFO com.syhb.project.services.impl.CashWithdrawalImpl [main] In CashWithdrawalImpl send
+2019-09-18 02:49:48,888 INFO com.syhb.project.handlers.TransactionSuccessful [main] Transaksi sukses!
+2019-09-18 02:52:07,878 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 11595 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 02:52:07,880 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 02:52:07,880 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 02:52:09,617 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.265 seconds (JVM running for 3.158)
+2019-09-18 02:52:19,665 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 03:08:06,764 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 14678 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 03:08:06,765 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 03:08:06,765 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 03:08:08,498 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.244 seconds (JVM running for 3.047)
+2019-09-18 03:08:29,831 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 03:08:36,474 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 03:08:43,385 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 03:08:48,556 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 03:09:18,851 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 03:09:20,870 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 03:09:21,030 INFO com.syhb.project.handlers.NotEnoughBalance [main] Saldo Anda tidak mencukupi!
+2019-09-18 03:14:25,573 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 15896 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 03:14:25,574 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 03:14:25,574 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 03:14:27,340 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.064 seconds (JVM running for 2.872)
+2019-09-18 03:14:38,303 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 03:15:03,567 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 03:15:03,624 INFO com.syhb.project.handlers.NotEnoughBalance [main] Saldo Anda tidak mencukupi!
+2019-09-18 03:15:17,018 INFO com.syhb.project.services.impl.TransferInquiryImpl [main] In TransferInquiryImpl send
+2019-09-18 03:15:17,030 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 03:15:26,004 INFO com.syhb.project.services.impl.TransferImpl [main] In TransferImpl send
+2019-09-18 03:15:26,012 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 03:15:26,039 INFO com.syhb.project.handlers.NotEnoughBalance [main] Saldo Anda tidak mencukupi!
+2019-09-18 06:14:39,532 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 32477 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 06:14:39,534 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 06:14:39,534 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 06:14:41,700 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.525 seconds (JVM running for 3.377)
+2019-09-18 06:15:59,832 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 06:18:01,675 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33124 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 06:18:01,677 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 06:18:01,678 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 06:18:03,380 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.049 seconds (JVM running for 2.763)
+2019-09-18 06:18:33,320 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33222 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 06:18:33,330 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 06:18:33,330 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 06:18:34,766 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.805 seconds (JVM running for 2.595)
+2019-09-18 06:20:00,209 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 33507 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 06:20:00,211 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 06:20:00,211 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 06:20:01,764 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.816 seconds (JVM running for 2.544)
+2019-09-18 06:20:09,623 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 10:01:13,734 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 40076 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 10:01:13,736 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:01:13,736 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 10:01:17,459 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 4.022 seconds (JVM running for 5.905)
+2019-09-18 10:02:39,559 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 10:23:47,551 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 43746 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 10:23:47,554 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:23:47,555 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 10:23:49,220 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.953 seconds (JVM running for 3.729)
+2019-09-18 10:24:17,604 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 10:38:48,874 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 10:42:25,601 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 47195 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 10:42:25,602 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:42:25,602 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 10:42:26,877 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.485 seconds (JVM running for 3.173)
+2019-09-18 10:42:31,808 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 10:45:04,200 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 47692 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 10:45:04,201 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:45:04,201 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 10:45:05,414 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.405 seconds (JVM running for 3.007)
+2019-09-18 10:45:11,545 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 11:22:18,424 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 54623 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 11:22:18,427 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 11:22:18,427 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 11:22:19,977 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 2.028 seconds (JVM running for 2.781)
+2019-09-18 11:22:58,115 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 12:08:15,161 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 63219 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 12:08:15,164 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 12:08:15,164 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 12:08:16,796 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.897 seconds (JVM running for 2.647)
+2019-09-18 12:08:50,619 INFO com.syhb.project.services.impl.TransferInquiryImpl [main] In TransferInquiryImpl send
+2019-09-18 12:08:50,655 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 12:08:53,672 INFO com.syhb.project.services.impl.TransferImpl [main] In TransferImpl send
+2019-09-18 12:08:53,679 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 12:08:54,100 INFO com.syhb.project.handlers.TransactionSuccessful [main] Transaksi sukses!
+2019-09-18 12:08:54,100 INFO com.syhb.project.services.impl.TransferImpl [main] In TransferImpl send
+2019-09-18 12:08:54,104 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 12:10:40,278 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 12:10:43,997 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 12:10:44,130 INFO com.syhb.project.handlers.TransactionSuccessful [main] Transaksi sukses!
+2019-09-18 12:10:44,132 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 12:11:34,328 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 63845 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 12:11:34,329 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 12:11:34,329 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 12:11:35,564 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 1.447 seconds (JVM running for 3.096)
+2019-09-18 12:11:44,151 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 12:11:44,286 INFO com.syhb.project.handlers.WrongPINNumber [main] PIN yang Anda masukkan salah!
+2019-09-18 12:11:47,152 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 12:11:56,958 INFO com.syhb.project.services.impl.TransferInquiryImpl [main] In TransferInquiryImpl send
+2019-09-18 12:11:56,966 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 12:11:58,745 INFO com.syhb.project.services.impl.TransferImpl [main] In TransferImpl send
+2019-09-18 12:11:58,751 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 12:11:58,792 INFO com.syhb.project.handlers.TransactionSuccessful [main] Transaksi sukses!
+2019-09-18 12:11:58,793 INFO com.syhb.project.services.impl.TransferImpl [main] In TransferImpl send
+2019-09-18 12:11:58,796 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In ClientService sendPostRequest
+2019-09-18 12:12:16,563 INFO com.syhb.project.services.impl.BalanceInquiryImpl [main] In BalanceInquiryImpl send
+2019-09-18 12:12:26,512 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 12:12:29,483 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 12:12:29,535 INFO com.syhb.project.handlers.TransactionSuccessful [main] Transaksi sukses!
+2019-09-18 12:12:29,536 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 12:12:55,080 INFO com.syhb.project.services.impl.PaymentInquiryImpl [main] In PaymentInquiryImpl send
+2019-09-18 12:12:58,526 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 12:12:58,578 INFO com.syhb.project.handlers.NotEnoughBalance [main] Saldo Anda tidak mencukupi!
+2019-09-18 12:13:24,930 INFO com.syhb.project.services.impl.PaymentImpl [main] In PaymentImpl send
+2019-09-18 12:13:24,970 INFO com.syhb.project.handlers.NotEnoughBalance [main] Saldo Anda tidak mencukupi!
+2019-09-18 12:13:36,832 INFO com.syhb.project.services.impl.CashWithdrawalImpl [main] In CashWithdrawalImpl send
+2019-09-18 12:13:36,884 INFO com.syhb.project.handlers.MultipleOf [main] Jumlah harus kelipatan 100.000!
+2019-09-18 13:57:50,637 INFO com.syhb.project.ClientApplication [main] Starting ClientApplication on Muhamad with PID 72907 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/client1)
+2019-09-18 13:57:50,639 DEBUG com.syhb.project.ClientApplication [main] Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 13:57:50,640 INFO com.syhb.project.ClientApplication [main] The following profiles are active: server-binding,client
+2019-09-18 13:57:53,791 INFO com.syhb.project.ClientApplication [main] Started ClientApplication in 4.1 seconds (JVM running for 5.329)

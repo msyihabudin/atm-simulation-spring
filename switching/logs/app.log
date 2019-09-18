@@ -1,0 +1,721 @@
+2019-09-15 11:01:33,265 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 3261 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 11:01:33,273 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 11:01:33,274 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 11:01:37,190 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.424 seconds (JVM running for 6.538)
+2019-09-15 11:03:50,565 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 11:03:50,602 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-15 11:03:50,901 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8085-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.syhb.project.models.Bank; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.syhb.project.models.Bank] with root cause
+org.hibernate.InstantiationException: No default constructor for entity:  : com.syhb.project.models.Bank
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:685) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5040) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1711) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1695) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.plan.exec.process.internal.EntityReferenceInitializerImpl.hydrateEntityState(EntityReferenceInitializerImpl.java:247) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.plan.exec.process.internal.AbstractRowReader.readRow(AbstractRowReader.java:109) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails$EntityLoaderRowReader.readRow(EntityLoadQueryDetails.java:254) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.plan.exec.process.internal.ResultSetProcessorImpl.extractResults(ResultSetProcessorImpl.java:122) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:107) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:188) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4302) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:597) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:565) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:226) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:350) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:127) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:93) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1288) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1276) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:208) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2912) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2886) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3521) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3490) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350) ~[spring-orm-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.sun.proxy.$Proxy118.find(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:309) ~[spring-orm-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.sun.proxy.$Proxy118.find(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:274) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:144) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ExposeRepositoryInvocationInterceptor.invoke(CrudMethodMetadataPostProcessor.java:364) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.sun.proxy.$Proxy124.findById(Unknown Source) ~[?:?]
+	at com.syhb.project.services.TransferInquiryService.response(TransferInquiryService.java:55) ~[classes/:?]
+	at com.syhb.project.controllers.TransactionController.create(TransactionController.java:70) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+2019-09-15 11:04:31,330 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 3293 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 11:04:31,336 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 11:04:31,339 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 11:04:35,413 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.482 seconds (JVM running for 5.839)
+2019-09-15 11:04:54,568 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 11:04:54,601 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-15 11:07:24,878 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionService create
+2019-09-15 11:07:24,890 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-3] In TransferInquiryService response
+2019-09-15 11:07:26,754 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionService create
+2019-09-15 11:07:26,757 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-4] In TransferService response
+2019-09-15 11:07:26,768 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8085-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.syhb.project.services.TransferService.response(TransferService.java:47) ~[classes/:?]
+	at com.syhb.project.controllers.TransactionController.create(TransactionController.java:70) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+2019-09-15 11:12:24,503 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 3371 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 11:12:24,512 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 11:12:24,513 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 11:12:28,497 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.409 seconds (JVM running for 6.102)
+2019-09-15 11:13:02,927 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 11:13:02,961 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-15 11:15:49,107 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionService create
+2019-09-15 11:15:49,117 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-3] In TransferInquiryService response
+2019-09-15 11:16:43,973 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 3409 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 11:16:43,989 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 11:16:43,989 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 11:16:47,687 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.146 seconds (JVM running for 5.248)
+2019-09-15 11:16:58,255 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 11:16:58,285 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-15 11:17:45,629 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 3419 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 11:17:45,634 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 11:17:45,634 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 11:17:49,351 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.181 seconds (JVM running for 5.225)
+2019-09-15 11:18:21,576 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 11:18:21,609 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-15 11:18:24,751 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionService create
+2019-09-15 11:18:24,755 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-2] In TransferService response
+2019-09-15 11:22:39,083 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionService create
+2019-09-15 11:22:39,091 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-4] In TransferInquiryService response
+2019-09-15 11:22:59,461 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionService create
+2019-09-15 11:22:59,467 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-6] In TransferInquiryService response
+2019-09-15 11:23:02,238 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionService create
+2019-09-15 11:23:02,241 DEBUG c.s.p.s.TransferInquiryService [http-nio-8085-exec-7] In TransferService response
+2019-09-15 15:36:55,816 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4689 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 15:36:55,822 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 15:36:55,822 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 15:37:00,061 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.668 seconds (JVM running for 6.018)
+2019-09-15 15:37:38,943 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 15:37:38,983 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 15:37:38,999 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8085-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: ""] with root cause
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:776) ~[?:?]
+	at com.syhb.project.services.PaymentInquiryService.response(PaymentInquiryService.java:40) ~[classes/:?]
+	at com.syhb.project.controllers.PaymentInquiryController.create(PaymentInquiryController.java:46) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+2019-09-15 15:41:07,606 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionService create
+2019-09-15 15:41:07,618 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-2] In PaymentInquiryService response
+2019-09-15 15:42:43,689 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionService create
+2019-09-15 15:42:43,696 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-4] In PaymentInquiryService response
+2019-09-15 15:43:43,393 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4744 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 15:43:43,404 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 15:43:43,404 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 15:43:47,323 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.415 seconds (JVM running for 5.656)
+2019-09-15 15:43:56,591 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 15:43:56,626 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 15:45:37,812 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4769 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 15:45:37,819 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 15:45:37,819 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 15:45:41,891 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.531 seconds (JVM running for 5.931)
+2019-09-15 15:45:50,323 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 15:45:50,356 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 15:49:29,688 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4799 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 15:49:29,696 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 15:49:29,697 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 15:49:34,668 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 5.874 seconds (JVM running for 8.404)
+2019-09-15 15:49:55,184 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 15:49:55,212 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 15:51:00,545 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4816 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 15:51:00,552 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 15:51:00,552 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 15:51:04,793 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.614 seconds (JVM running for 5.971)
+2019-09-15 15:51:14,143 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 15:51:14,175 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 15:55:46,843 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4850 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 15:55:46,883 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 15:55:46,883 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 15:55:51,295 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 5.04 seconds (JVM running for 6.327)
+2019-09-15 15:55:56,455 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 15:55:56,495 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 16:00:55,254 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4892 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 16:00:55,259 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 16:00:55,259 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 16:02:10,772 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4902 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 16:02:10,779 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 16:02:10,779 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 16:02:14,644 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.319 seconds (JVM running for 5.588)
+2019-09-15 16:02:23,847 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 16:02:23,884 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 16:03:25,819 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 4914 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 16:03:25,827 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 16:03:25,827 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 16:03:29,877 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.544 seconds (JVM running for 5.934)
+2019-09-15 16:03:35,558 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionService create
+2019-09-15 16:03:35,606 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 16:03:45,478 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-3] In PaymentController create
+2019-09-15 16:03:45,486 DEBUG c.s.p.s.PaymentInquiryService [http-nio-8085-exec-3] In PaymentService response
+2019-09-15 21:41:14,190 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 5903 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 21:41:14,195 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 21:41:14,195 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 21:41:18,185 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.386 seconds (JVM running for 5.884)
+2019-09-15 21:42:03,451 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-15 21:42:03,497 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 21:42:03,687 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8085-exec-1] Unknown column 'product0_.reference_number' in 'where clause'
+2019-09-15 21:42:03,721 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8085-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'product0_.reference_number' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.2.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.2.0.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2265) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2028) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:949) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:351) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2787) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2770) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2604) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2599) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:505) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:395) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:220) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1537) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1538) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1506) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:132) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:74) ~[hibernate-core-5.3.11.Final.jar:5.3.11.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ExistsExecution.doExecute(JpaQueryExecution.java:316) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:144) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ExposeRepositoryInvocationInterceptor.invoke(CrudMethodMetadataPostProcessor.java:364) ~[spring-data-jpa-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.sun.proxy.$Proxy126.existsByReferenceNumber(Unknown Source) ~[?:?]
+	at com.syhb.project.services.PaymentInquiryService.response(PaymentInquiryService.java:42) ~[classes/:?]
+	at com.syhb.project.controllers.TransactionController.create(TransactionController.java:71) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) ~[spring-boot-actuator-2.1.8.RELEASE.jar:2.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) ~[spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.24.jar:9.0.24]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+2019-09-15 21:47:17,572 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 5957 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 21:47:17,579 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 21:47:17,579 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 21:47:21,491 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.289 seconds (JVM running for 5.575)
+2019-09-15 21:47:34,011 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-15 21:47:34,045 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 21:47:38,523 DEBUG c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-15 21:47:38,528 INFO c.s.p.s.PaymentService [http-nio-8085-exec-2] In PaymentService response
+2019-09-15 22:19:00,356 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 6208 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 22:19:00,362 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:19:00,362 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:19:04,246 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.286 seconds (JVM running for 5.739)
+2019-09-15 22:22:05,093 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-15 22:22:05,125 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 22:22:18,455 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-15 22:22:18,462 INFO c.s.p.s.PaymentService [http-nio-8085-exec-3] In PaymentService response
+2019-09-15 22:22:59,812 INFO c.s.p.c.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-15 22:22:59,815 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-5] In PaymentInquiryService response
+2019-09-15 22:28:18,081 INFO c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-15 22:28:18,085 INFO c.s.p.s.PaymentService [http-nio-8085-exec-7] In PaymentService response
+2019-09-15 22:50:23,559 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 6446 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 22:50:23,580 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:50:23,580 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:50:27,518 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.558 seconds (JVM running for 6.354)
+2019-09-15 22:51:33,813 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-15 22:51:33,858 INFO c.s.p.s.PaymentService [http-nio-8085-exec-1] In PaymentService response
+2019-09-15 22:53:01,246 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 6473 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 22:53:01,253 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:53:01,253 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:53:05,020 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.097 seconds (JVM running for 5.244)
+2019-09-15 22:55:42,570 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 6493 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 22:55:42,581 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:55:42,582 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:55:46,357 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.257 seconds (JVM running for 5.345)
+2019-09-15 22:56:13,640 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-15 22:56:13,672 INFO c.s.p.s.PaymentService [http-nio-8085-exec-1] In PaymentService response
+2019-09-15 23:01:01,439 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-15 23:01:01,448 INFO c.s.p.s.PaymentService [http-nio-8085-exec-3] In PaymentService response
+2019-09-15 23:12:56,320 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 6634 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 23:12:56,326 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 23:12:56,326 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 23:13:00,073 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.209 seconds (JVM running for 5.41)
+2019-09-15 23:16:18,301 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-15 23:16:18,328 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-3] In TransferInquiryService response
+2019-09-15 23:16:21,810 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-15 23:16:21,815 INFO c.s.p.s.TransferService [http-nio-8085-exec-4] In TransferService response
+2019-09-15 23:16:49,493 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-15 23:16:49,500 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-6] In PaymentInquiryService response
+2019-09-15 23:19:58,310 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 6688 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-15 23:19:58,319 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 23:19:58,319 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 23:20:02,279 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.416 seconds (JVM running for 5.842)
+2019-09-15 23:20:28,139 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-15 23:20:28,170 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-1] In PaymentInquiryService response
+2019-09-15 23:20:57,323 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-15 23:20:57,337 INFO c.s.p.s.PaymentService [http-nio-8085-exec-3] In PaymentService response
+2019-09-15 23:29:09,299 INFO c.s.p.c.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-15 23:29:09,308 INFO c.s.p.s.PaymentService [http-nio-8085-exec-5] In PaymentService response
+2019-09-15 23:33:14,373 INFO c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-15 23:33:14,378 INFO c.s.p.s.PaymentService [http-nio-8085-exec-7] In PaymentService response
+2019-09-15 23:34:10,460 INFO c.s.p.c.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-15 23:34:10,467 INFO c.s.p.s.PaymentService [http-nio-8085-exec-9] In PaymentService response
+2019-09-16 13:19:21,003 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 43970 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 13:19:21,008 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 13:19:21,008 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 13:19:25,012 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.363 seconds (JVM running for 6.004)
+2019-09-16 13:21:24,924 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 13:21:24,953 INFO c.s.p.s.PaymentService [http-nio-8085-exec-1] In PaymentService response
+2019-09-16 13:22:00,480 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-16 13:22:00,490 INFO c.s.p.s.PaymentService [http-nio-8085-exec-3] In PaymentService response
+2019-09-16 13:23:21,629 INFO c.s.p.c.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-16 13:23:21,635 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-5] In TransferInquiryService response
+2019-09-16 13:23:26,268 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-16 13:23:26,271 INFO c.s.p.s.TransferService [http-nio-8085-exec-6] In TransferService response
+2019-09-16 13:25:32,610 INFO c.s.p.c.TransactionController [http-nio-8085-exec-8] In TransactionController create
+2019-09-16 13:25:32,614 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-8] In TransferInquiryService response
+2019-09-16 13:25:36,234 INFO c.s.p.c.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-16 13:25:36,236 INFO c.s.p.s.TransferService [http-nio-8085-exec-9] In TransferService response
+2019-09-16 13:34:02,865 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 46842 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 13:34:02,870 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 13:34:02,870 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 13:34:06,915 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.45 seconds (JVM running for 5.691)
+2019-09-16 13:34:31,789 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 13:34:31,822 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-16 13:34:34,387 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 13:34:34,394 INFO c.s.p.s.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-16 13:36:04,738 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 13:36:04,749 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-4] In PaymentInquiryService response
+2019-09-16 13:36:08,352 INFO c.s.p.c.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-16 13:36:08,356 INFO c.s.p.s.PaymentService [http-nio-8085-exec-5] In PaymentService response
+2019-09-16 13:37:41,939 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 47555 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 13:37:41,944 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 13:37:41,944 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 13:37:45,922 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.417 seconds (JVM running for 5.549)
+2019-09-16 13:38:00,954 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 13:38:00,981 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-16 13:38:03,788 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 13:38:03,793 INFO c.s.p.s.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-16 13:38:21,538 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 13:38:21,544 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-4] In PaymentInquiryService response
+2019-09-16 13:38:24,056 INFO c.s.p.c.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-16 13:38:24,060 INFO c.s.p.s.PaymentService [http-nio-8085-exec-5] In PaymentService response
+2019-09-16 13:38:58,641 INFO c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-16 13:38:58,647 INFO c.s.p.s.PaymentService [http-nio-8085-exec-7] In PaymentService response
+2019-09-16 15:31:19,616 INFO c.s.p.c.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-16 15:31:19,647 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-9] In TransferInquiryService response
+2019-09-16 15:31:23,128 INFO c.s.p.c.TransactionController [http-nio-8085-exec-10] In TransactionController create
+2019-09-16 15:31:23,134 INFO c.s.p.s.TransferService [http-nio-8085-exec-10] In TransferService response
+2019-09-16 16:17:51,826 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 16:17:51,846 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-2] In TransferInquiryService response
+2019-09-16 16:19:58,600 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 16:19:58,606 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-4] In PaymentInquiryService response
+2019-09-16 16:22:28,145 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-16 16:22:28,151 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-6] In TransferInquiryService response
+2019-09-16 16:27:01,449 INFO c.s.p.c.TransactionController [http-nio-8085-exec-8] In TransactionController create
+2019-09-16 16:27:01,459 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-8] In TransferInquiryService response
+2019-09-16 16:29:36,177 INFO c.s.p.c.TransactionController [http-nio-8085-exec-10] In TransactionController create
+2019-09-16 16:29:36,182 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-10] In TransferInquiryService response
+2019-09-16 16:30:11,360 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 16:30:11,365 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-2] In TransferInquiryService response
+2019-09-16 16:32:46,314 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 16:32:46,321 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-4] In TransferInquiryService response
+2019-09-16 16:41:52,446 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-16 16:41:52,463 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-6] In TransferInquiryService response
+2019-09-16 16:44:33,674 INFO c.s.p.c.TransactionController [http-nio-8085-exec-8] In TransactionController create
+2019-09-16 16:44:33,681 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-8] In TransferInquiryService response
+2019-09-16 16:44:37,899 INFO c.s.p.c.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-16 16:44:37,902 INFO c.s.p.s.TransferService [http-nio-8085-exec-9] In TransferService response
+2019-09-16 17:01:25,404 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 82142 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 17:01:25,409 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 17:01:25,409 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 17:01:29,481 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.48 seconds (JVM running for 5.843)
+2019-09-16 17:01:58,443 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 17:01:58,468 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-16 17:02:00,812 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 17:02:00,816 INFO c.s.p.s.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-16 17:08:25,629 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 17:08:25,643 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-4] In TransferInquiryService response
+2019-09-16 17:08:26,895 INFO c.s.p.c.TransactionController [http-nio-8085-exec-5] In TransactionController create
+2019-09-16 17:08:26,899 INFO c.s.p.s.TransferService [http-nio-8085-exec-5] In TransferService response
+2019-09-16 17:10:27,941 INFO c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-16 17:10:27,948 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-7] In TransferInquiryService response
+2019-09-16 17:13:22,997 INFO c.s.p.c.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-16 17:13:23,003 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-9] In TransferInquiryService response
+2019-09-16 17:13:24,549 INFO c.s.p.c.TransactionController [http-nio-8085-exec-10] In TransactionController create
+2019-09-16 17:13:24,554 INFO c.s.p.s.TransferService [http-nio-8085-exec-10] In TransferService response
+2019-09-16 17:15:01,854 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 84801 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 17:15:01,860 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 17:15:01,860 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 17:15:06,101 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.673 seconds (JVM running for 5.955)
+2019-09-16 17:15:17,389 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 17:15:17,415 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-16 17:15:23,613 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-16 17:15:23,619 INFO c.s.p.s.TransferService [http-nio-8085-exec-3] In TransferService response
+2019-09-16 17:16:21,778 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 85066 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 17:16:21,786 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 17:16:21,787 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 17:16:25,686 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.334 seconds (JVM running for 5.512)
+2019-09-16 17:19:41,451 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 85713 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 17:19:41,456 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 17:19:41,456 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 17:19:46,260 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 5.32 seconds (JVM running for 6.912)
+2019-09-16 17:20:04,590 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 17:20:04,614 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-16 17:20:07,716 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 17:20:07,720 INFO c.s.p.s.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-16 17:20:58,815 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 85958 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-16 17:20:58,821 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 17:20:58,822 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 17:21:04,810 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 6.475 seconds (JVM running for 7.809)
+2019-09-16 17:22:17,978 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-16 17:22:18,013 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-16 17:22:20,112 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 17:22:20,116 INFO c.s.p.s.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-16 17:23:04,907 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 17:23:04,914 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-4] In PaymentInquiryService response
+2019-09-16 17:23:40,883 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-16 17:23:40,891 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-6] In PaymentInquiryService response
+2019-09-16 17:23:43,105 INFO c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-16 17:23:43,109 INFO c.s.p.s.PaymentService [http-nio-8085-exec-7] In PaymentService response
+2019-09-16 17:31:22,452 INFO c.s.p.c.TransactionController [http-nio-8085-exec-9] In TransactionController create
+2019-09-16 17:31:22,470 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-9] In PaymentInquiryService response
+2019-09-16 17:31:25,420 INFO c.s.p.c.TransactionController [http-nio-8085-exec-10] In TransactionController create
+2019-09-16 17:31:25,424 INFO c.s.p.s.PaymentService [http-nio-8085-exec-10] In PaymentService response
+2019-09-16 17:32:13,911 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-16 17:32:13,917 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-2] In TransferInquiryService response
+2019-09-16 17:32:56,678 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-16 17:32:56,682 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-4] In PaymentInquiryService response
+2019-09-16 17:35:08,037 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-16 17:35:08,041 INFO c.s.p.s.PaymentService [http-nio-8085-exec-6] In PaymentService response
+2019-09-17 07:13:59,796 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 32711 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-17 07:13:59,807 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 07:13:59,807 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 07:14:03,860 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.457 seconds (JVM running for 5.698)
+2019-09-17 16:56:30,214 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-17 16:56:30,309 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-17 16:56:43,801 INFO c.s.p.c.TransactionController [http-nio-8085-exec-3] In TransactionController create
+2019-09-17 16:56:43,812 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-3] In PaymentInquiryService response
+2019-09-17 16:56:45,635 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-17 16:56:45,638 INFO c.s.p.s.PaymentService [http-nio-8085-exec-4] In PaymentService response
+2019-09-17 16:58:20,515 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-17 16:58:20,520 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-6] In PaymentInquiryService response
+2019-09-17 22:35:07,280 INFO c.s.p.SwitcherApplication [main] Starting SwitcherApplication on Muhamad with PID 61641 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-17 22:35:07,292 DEBUG c.s.p.SwitcherApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 22:35:07,293 INFO c.s.p.SwitcherApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 22:35:11,424 INFO c.s.p.SwitcherApplication [main] Started SwitcherApplication in 4.725 seconds (JVM running for 6.093)
+2019-09-17 22:35:41,339 INFO c.s.p.c.TransactionController [http-nio-8085-exec-1] In TransactionController create
+2019-09-17 22:35:41,367 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-1] In TransferInquiryService response
+2019-09-17 22:35:45,562 INFO c.s.p.c.TransactionController [http-nio-8085-exec-2] In TransactionController create
+2019-09-17 22:35:45,567 INFO c.s.p.s.TransferService [http-nio-8085-exec-2] In TransferService response
+2019-09-17 22:35:58,547 INFO c.s.p.c.TransactionController [http-nio-8085-exec-4] In TransactionController create
+2019-09-17 22:35:58,556 INFO c.s.p.s.TransferInquiryService [http-nio-8085-exec-4] In TransferInquiryService response
+2019-09-17 22:36:24,710 INFO c.s.p.c.TransactionController [http-nio-8085-exec-6] In TransactionController create
+2019-09-17 22:36:24,715 INFO c.s.p.s.PaymentInquiryService [http-nio-8085-exec-6] In PaymentInquiryService response
+2019-09-17 22:36:26,801 INFO c.s.p.c.TransactionController [http-nio-8085-exec-7] In TransactionController create
+2019-09-17 22:36:26,805 INFO c.s.p.s.PaymentService [http-nio-8085-exec-7] In PaymentService response
+2019-09-18 03:05:29,532 INFO c.s.p.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 14153 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-18 03:05:29,538 DEBUG c.s.p.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 03:05:29,539 INFO c.s.p.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 03:05:33,455 INFO c.s.p.SwitchingApplication [main] Started SwitchingApplication in 4.364 seconds (JVM running for 5.906)
+2019-09-18 03:07:14,791 INFO c.s.p.SwitchingApplication [main] Starting SwitchingApplication on Muhamad with PID 14500 (/Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher/target/classes started by muhamadsyihabudin in /Users/muhamadsyihabudin/Documents/Workspace/atm-projects/switcher)
+2019-09-18 03:07:14,803 DEBUG c.s.p.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 03:07:14,803 INFO c.s.p.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 03:07:18,121 INFO c.s.p.SwitchingApplication [main] Started SwitchingApplication in 3.722 seconds (JVM running for 5.046)
